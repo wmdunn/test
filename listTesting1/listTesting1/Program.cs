@@ -10,7 +10,7 @@ namespace listTesting1
     {
         static void Main(string[] args)
         {
-            List<string> names = new List<string>();
+            var names = new List<string>();
             names.Add("blah");
             names.Add("yah");
             foreach (string name in names)
