@@ -1,1 +1,6 @@
 C:\Users\wdunn\Desktop\testRepository\testRepository\listTesting1\listTesting1\bin\Debug\listTesting1.exe.config
+C:\Users\wdunn\Desktop\testRepository\testRepository\listTesting1\listTesting1\bin\Debug\listTesting1.exe
+C:\Users\wdunn\Desktop\testRepository\testRepository\listTesting1\listTesting1\bin\Debug\listTesting1.pdb
+C:\Users\wdunn\Desktop\testRepository\testRepository\listTesting1\listTesting1\obj\Debug\listTesting1.csprojResolveAssemblyReference.cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\listTesting1\listTesting1\obj\Debug\listTesting1.exe
+C:\Users\wdunn\Desktop\testRepository\testRepository\listTesting1\listTesting1\obj\Debug\listTesting1.pdb
