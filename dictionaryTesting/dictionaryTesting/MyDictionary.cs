@@ -6,7 +6,7 @@ namespace dictionaryTesting
 {
     public class MyDictionary
     {
-        Dictionary<string,int> map = new Dictionary<string, int>(); 
+        private Dictionary<string,int> map = new Dictionary<string, int>();
 
         public MyDictionary(int valueCount)
         {
@@ -19,7 +19,7 @@ namespace dictionaryTesting
             }
         }
 
-        public void printDictionaryWithKey(string key)
+        public void printDictionaryValueGivenKey(string key)
         {
             int value;
             map.TryGetValue(key, out value);
