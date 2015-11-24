@@ -3,3 +3,4 @@ C:\Users\wdunn\Desktop\testRepository\testRepository\dictionaryTesting\dictionar
 C:\Users\wdunn\Desktop\testRepository\testRepository\dictionaryTesting\dictionaryTesting\bin\Debug\dictionaryTesting.pdb
 C:\Users\wdunn\Desktop\testRepository\testRepository\dictionaryTesting\dictionaryTesting\obj\Debug\dictionaryTesting.exe
 C:\Users\wdunn\Desktop\testRepository\testRepository\dictionaryTesting\dictionaryTesting\obj\Debug\dictionaryTesting.pdb
+C:\Users\wdunn\Desktop\testRepository\testRepository\dictionaryTesting\dictionaryTesting\obj\Debug\dictionaryTesting.csprojResolveAssemblyReference.cache
