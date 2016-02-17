@@ -26,7 +26,7 @@ namespace CSV_Partials_Parser
         public string filename;
         public string filepath;
         private const string Delimiter = ",";
-        static ParseData _pd = new ParseData();
+ 
 
 
         public MainWindow()
