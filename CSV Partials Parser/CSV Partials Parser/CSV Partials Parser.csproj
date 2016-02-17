@@ -63,8 +63,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ParsePaylines.cs" />
     <Compile Include="PayLine.cs" />
-    <Compile Include="FileHandler.cs" />
+    <Compile Include="Handler.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -80,7 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OpenFileDialogEx.cs" />
-    <Compile Include="ParseData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

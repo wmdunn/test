@@ -60,7 +60,7 @@ namespace CSV_Partials_Parser
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            FileHandler myReader = new FileHandler();
+            Handler myReader = new Handler();
             myReader.Initialize(filename);
 
         }

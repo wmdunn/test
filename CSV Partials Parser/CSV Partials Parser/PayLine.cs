@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace CSV_Partials_Parser
 {
@@ -34,7 +36,6 @@ namespace CSV_Partials_Parser
         public string PartialsCheckAmount { get; set; }
         public string PartialsCheckDate { get; set; }
 
-        //private List<PayLine> Paylines;
 
         public PayLine(string[] fields)
         {
@@ -69,11 +70,38 @@ namespace CSV_Partials_Parser
             PartialsCheckDate = null;
         }
 
-        private void ProcessPaylines()
+        public PayLine(PayLine payLine)
         {
-            
+            LineCount = ++LineCount;
+            Status = payLine.Status;
+            PayHeaderNumb = payLine.PayHeaderNumb;
+            StatusDate = payLine.StatusDate;
+            PlannedDate = payLine.PlannedAmount;
+            PlannedAmount = payLine.PlannedAmount;
+            PlannedCurrency = payLine.PlannedCurrency;
+            ActualAmount = payLine.ActualAmount;
+            ActualCurrency = payLine.ActualCurrency;
+            ActualDate = payLine.ActualDate;
+            OffsetNumber = payLine.OffsetNumber;
+            OffsetAmount = payLine.OffsetAmount;
+            OffsetDate = payLine.OffsetDate;
+            AllocationShare = payLine.AllocationShare;
+            VendorNumber = payLine.VendorNumber;
+            VendorLocation = payLine.VendorLocation;
+            AllocationDescription = payLine.AllocationDescription;
+            AllocationType = payLine.AllocationType;
+            PctOrAmnt = payLine.PctOrAmnt;
+            ReferenceNum = payLine.ReferenceNum;
+            Remarks = payLine.Remarks;
+            CheckNumber = payLine.CheckNumber;
+            CheckAmount = payLine.CheckAmount;
+            CheckDate = payLine.CheckDate;
+            PartialsActualAmnt = payLine.PartialsActualAmnt;
+            PartialsActualDate = payLine.PartialsActualDate;
+            PartialsCheckNo = payLine.PartialsCheckNo;
+            PartialsCheckAmount = payLine.PartialsCheckAmount;
+            PartialsCheckDate = payLine.PartialsCheckDate;
         }
-
     }
 
     
