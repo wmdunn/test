@@ -1,0 +1,46 @@
+﻿<Window x:Class="SimpleForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Full Name"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"
+                   Margin="5"
+         ></TextBlock>
+        <TextBox Grid.Column="1"
+                 Width="250"
+                 Height="20"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Bottom"
+                 Margin="5"
+                 ></TextBox>
+        <TextBlock HorizontalAlignment="Right" 
+                   Margin="5" 
+                   Grid.Row="1"                  
+                   Text="Sex" 
+                   VerticalAlignment="Bottom"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" 
+                    VerticalAlignment="Stretch" 
+                    HorizontalAlignment="Stretch">
+            <RadioButton GroupName="Sex" Content="Male" IsChecked="True" Margin="5"></RadioButton>
+            <RadioButton GroupName="Sex" Content="Female" Margin="5"></RadioButton>
+        </StackPanel>
+        <TextBlock
+            ></TextBlock>
+    </Grid>
+</Window>

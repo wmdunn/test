@@ -11,7 +11,7 @@ namespace dictionaryTesting
         static void Main(string[] args)
         {
            MyDictionary aDictionary = new MyDictionary(2);
-            aDictionary.printDictionaryWithKey("foo");
+            aDictionary.printDictionaryValueGivenKey("foo");
             Console.ReadKey();
         }
     }

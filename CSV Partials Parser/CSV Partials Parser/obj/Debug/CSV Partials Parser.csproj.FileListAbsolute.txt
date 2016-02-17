@@ -1,0 +1,32 @@
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\bin\Debug\CSV Partials Parser.exe.config
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\bin\Debug\CSV Partials Parser.exe
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\bin\Debug\CSV Partials Parser.pdb
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.csprojResolveAssemblyReference.cache
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\MainWindow.g.cs
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\App.g.cs
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser_MarkupCompile.cache
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser_MarkupCompile.lref
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\MainWindow.baml
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.g.resources
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV_Partials_Parser.Properties.Resources.resources
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.csproj.GenerateResource.Cache
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.exe
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.pdb
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\bin\Debug\GenericParsing.dll
+c:\users\wdunn\documents\visual studio 2013\Projects\CSV Partials Parser\CSV Partials Parser\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\bin\Debug\CSV Partials Parser.exe.config
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.exe
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.pdb
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\bin\Debug\CSV Partials Parser.exe
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\bin\Debug\CSV Partials Parser.pdb
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\bin\Debug\GenericParsing.dll
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.csprojResolveAssemblyReference.cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\MainWindow.g.cs
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\App.g.cs
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser_MarkupCompile.cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser_MarkupCompile.lref
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\MainWindow.baml
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.g.resources
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV_Partials_Parser.Properties.Resources.resources
+C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\CSV Partials Parser\obj\Debug\CSV Partials Parser.csproj.GenerateResource.Cache

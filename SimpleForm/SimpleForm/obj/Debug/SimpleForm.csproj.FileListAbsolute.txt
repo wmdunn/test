@@ -1,0 +1,13 @@
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\bin\Debug\SimpleForm.exe.config
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\bin\Debug\SimpleForm.exe
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\bin\Debug\SimpleForm.pdb
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\SimpleForm.csprojResolveAssemblyReference.cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\MainWindow.baml
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\MainWindow.g.cs
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\App.g.cs
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\SimpleForm_MarkupCompile.cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\SimpleForm.g.resources
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\SimpleForm.Properties.Resources.resources
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\SimpleForm.csproj.GenerateResource.Cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\SimpleForm.exe
+C:\Users\wdunn\Desktop\testRepository\testRepository\SimpleForm\SimpleForm\obj\Debug\SimpleForm.pdb

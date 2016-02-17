@@ -1,0 +1,13 @@
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.exe.config
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.exe
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.pdb
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.csprojResolveAssemblyReference.cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\MainWindow.baml
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\MainWindow.g.cs
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\App.g.cs
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel_MarkupCompile.cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.g.resources
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.Properties.Resources.resources
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.csproj.GenerateResource.Cache
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.exe
+C:\Users\wdunn\Desktop\testRepository\testRepository\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.pdb
