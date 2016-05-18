@@ -1,0 +1,12 @@
+"Status [Canceled, In Design, On Hold, Paid, Paid(Override), Partially Paid, To be Paid, Void]",*Payment Header Number (Text - 30),Status Date (Date),Planned Date (Date),Planned Amount (Decimal),Planned Currency,Actual Amount (Decimal),Actual Currency,Actual Date (Date),Offset Number (Text - 30),Offset Amount (Decimal),Offset Date (Date),Allocation Share - Start with and separate by ^ (e.g. '^35^15^50') (Text),Vendor Number - Start with and separate by ^ (e.g. '^VND1^VND0492^VND9348') (Text),Vendor Location Number - Start with and separate by ^ (e.g. '^VND1^VND0492^VND9348') (Text),Allocation Description - Start with and separate by ^ (e.g. '^Ck A/C 6557607504^Monticello RSA-4^Summerville') (Text),"Allocation Type - Start with and separate by ^ (e.g. '^Payee Account^Payee Account^Payee Account') [Budget Account, Business Area, Cost Center, GL Account, Journal Account, Payee Account, Profit Center]","By Percent or Amount? [PCT, AMT]",Reference No (Text - 30),Remarks (Text - 4000),Check Number (Text - 30),Check Amount (Decimal),Check Date (Date),Partials Actual Amount,Partials Actual Date,Partials Check No,Partials Check Amount,Partials Check Date,Partials Check Reference No,Partials Remarks
+Paid(Override),T-7996611,,10/5/2015,1483.33,USD,1483.33,USD,10/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,11/5/2015,1483.33,USD,1483.33,USD,11/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,12/5/2015,1483.33,USD,1483.33,USD,12/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,2/5/2015,1483.33,USD,1483.33,USD,2/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,3/5/2015,1483.33,USD,1483.33,USD,3/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,4/5/2015,1483.33,USD,1483.33,USD,4/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,5/5/2015,1483.33,USD,1483.33,USD,5/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,6/5/2015,1483.33,USD,1483.33,USD,6/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,7/5/2015,1483.33,USD,1483.33,USD,7/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,8/5/2015,1483.33,USD,1483.33,USD,8/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,
+Paid(Override),T-7996611,,9/5/2015,1483.33,USD,1483.33,USD,9/1/2015,,,,,,,,,,,,,, ,^1483.33,,^,^,^ ,^,^,

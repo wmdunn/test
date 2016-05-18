@@ -1,0 +1,23 @@
+"Status [Canceled, In Design, On Hold, Paid, Paid(Override), Partially Paid, To be Paid, Void]",*Payment Header Number (Text - 30),Status Date (Date),Planned Date (Date),Planned Amount (Decimal),Planned Currency,Actual Amount (Decimal),Actual Currency,Actual Date (Date),Offset Number (Text - 30),Offset Amount (Decimal),Offset Date (Date),Allocation Share - Start with and separate by ^ (e.g. '^35^15^50') (Text),Vendor Number - Start with and separate by ^ (e.g. '^VND1^VND0492^VND9348') (Text),Vendor Location Number - Start with and separate by ^ (e.g. '^VND1^VND0492^VND9348') (Text),Allocation Description - Start with and separate by ^ (e.g. '^Ck A/C 6557607504^Monticello RSA-4^Summerville') (Text),"Allocation Type - Start with and separate by ^ (e.g. '^Payee Account^Payee Account^Payee Account') [Budget Account, Business Area, Cost Center, GL Account, Journal Account, Payee Account, Profit Center]","By Percent or Amount? [PCT, AMT]",Reference No (Text - 30),Remarks (Text - 4000),Check Number (Text - 30),Check Amount (Decimal),Check Date (Date),Partials Actual Amount,Partials Actual Date,Partials Check No,Partials Check Amount,Partials Check Date,Partials Check Reference No,Partials Remarks
+Paid(Override),363168,,6/15/2008,18547.01,USD,18547.01,USD,5/21/2008,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,PCT,,P 2008/05/22
+
+[Offset]
+PP 1169852 2008/05/23 11975.67 -12000.00 P 2008/05/22 ,1169852,11975.67,5/23/2008,,,,,,,,
+Paid(Override),363168,,6/15/2009,37148.02,USD,18574.01,USD,5/21/2009,,,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,PCT,,P 2009/05/26 sd 5/21/09 Had site on hold b/c couldn't locate lease for CPI information. Lease found-due now.,1497265,6574.01,5/29/2009,^712.43^17861.58,^5/21/2009,^1497265^1497265,^6574.01^6574.01,^5/29/2009^5/29/2009,^^,^P 2009/05/26 sd 5/21/09 Had site on hold b/c couldn't locate lease for CPI information. Lease found-due now.^P 2009/05/26 sd 5/21/09 Had site on hold b/c couldn't locate lease for CPI information. Lease found-due now.
+
+[Offset]
+PP 1497265 2009/05/29 6574.01 -12000.00 P 2009/05/26 sd 5/21/09 Had site on hold b/c couldn't locate lease for CPI information. Lease found-due now. ,
+Paid(Override),363168,,6/15/2010,18965.18,USD,18965.18,USD,5/19/2010,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,PCT,,P 2010/05/20
+
+[Offset]
+PP 1772580 2010/05/21 12767.18 -12000.00 P 2010/05/20 ,1772580,12767.18,5/21/2010,,,,,,,,
+Paid(Override),363168,,6/15/2011,19557.63,USD,19557.63,USD,5/19/2011,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,PCT,,[Offset]
+PP 2061253 2011/05/23 13569.50 -12000.00 ,2061253,13569.5,5/23/2011,,,,,,,,
+Paid(Override),363168,,6/15/2012,20013.65,USD,20013.65,USD,5/16/2012,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,PCT,,P 2012/05/18
+
+[Offset]
+PP 2337874 2012/05/21 14462.34 -12000.00 P 2012/05/18 ,2337874,14462.34,5/21/2012,,,,,,,,
+Paid(Override),363168,,6/15/2013,20194.66,USD,20194.66,USD,5/21/2013,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,PCT,,PP 2604470 2013/05/23 14857.70 20194.66 P 2013/05/22 P 2013/05/22
+
+[Offset]
+PP 2604470 2013/05/23 14857.70 -12000.00 ,2604470,14857.7,5/23/2013,,,,,,,,

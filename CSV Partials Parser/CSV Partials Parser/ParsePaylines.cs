@@ -13,6 +13,7 @@ namespace CSV_Partials_Parser
         {
 
             //PayLine temp = new PayLine(PayLineList[index]);
+
             List<int> PartialsIndexCount = new List<int>();
             PartialsIndexCount.Add(index);
             for (int j = index + 1; j < PayLineList.Count; j++)

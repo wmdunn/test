@@ -1,0 +1,284 @@
+"Status [Canceled, In Design, On Hold, Paid, Paid(Override), Partially Paid, To be Paid, Void]",*Payment Header Number (Text - 30),Status Date (Date),Planned Date (Date),Planned Amount (Decimal),Planned Currency,Actual Amount (Decimal),Actual Currency,Actual Date (Date),Offset Number (Text - 30),Offset Amount (Decimal),Offset Date (Date),Allocation Share - Start with and separate by ^ (e.g. '^35^15^50') (Text),Vendor Number - Start with and separate by ^ (e.g. '^VND1^VND0492^VND9348') (Text),Vendor Location Number - Start with and separate by ^ (e.g. '^VND1^VND0492^VND9348') (Text),Allocation Description - Start with and separate by ^ (e.g. '^Ck A/C 6557607504^Monticello RSA-4^Summerville') (Text),"Allocation Type - Start with and separate by ^ (e.g. '^Payee Account^Payee Account^Payee Account') [Budget Account, Business Area, Cost Center, GL Account, Journal Account, Payee Account, Profit Center]","By Percent or Amount? [PCT, AMT]",Reference No (Text - 30),Remarks (Text - 4000),Check Number (Text - 30),Check Amount (Decimal),Check Date (Date),Partials Actual Amount,Partials Actual Date,Partials Check No,Partials Check Amount,Partials Check Date,Partials Check Reference No,Partials Remarks
+Paid(Override),113635,,1/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,1/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,1/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,1/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,1/1/2006,1564.46,USD,1564.46,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,1/1/2007,1611.39,USD,1611.39,USD,12/18/2006,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1501086567,135887.79,12/20/2006,,,,,,,,
+Paid(Override),113635,,1/1/2008,1659.73,USD,1659.73,USD,12/10/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1501098702,139058.45,12/11/2007,,,,,,,,
+Paid(Override),113635,,1/1/2009,1709.52,USD,1709.52,USD,12/16/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2008/12/17,1501256630,144855.99,12/22/2008,,,,,,,,
+Paid(Override),113635,,1/1/2010,1760.81,USD,1760.81,USD,12/18/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,PP 1501526667122909 2009/12/29 151812.72 1760.81 PP 1501499415122309 2009/12/23 151812.72 1760.81,1501526667,151812.72,12/29/2009,,,,,,,,
+Paid(Override),113635,,1/1/2011,1813.64,USD,1813.64,USD,12/20/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/12/21,1501333004,160650.87,12/22/2010,,,,,,,,
+Paid(Override),113635,,1/1/2012,1868.04,USD,1868.04,USD,12/19/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2011/12/20,1501348635,167684.9,12/21/2011,,,,,,,,
+Paid(Override),113635,,10/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,10/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,10/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,10/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,10/1/2006,1564.46,USD,1564.46,USD,9/15/2006,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,PP 1500801594092006 2006/09/20 135024.33 1564.46 P 2006/09/18,1500801594,135024.33,9/20/2006,,,,,,,,
+Paid(Override),113635,,10/1/2007,1611.39,USD,1611.39,USD,9/20/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500810606,139076.5,9/24/2007,,,,,,,,
+Paid(Override),113635,,10/1/2008,1659.73,USD,1659.73,USD,9/23/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2008/09/24,1500887048,143215.42,9/25/2008,,,,,,,,
+Paid(Override),113635,,10/1/2009,1709.52,USD,1709.52,USD,9/18/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/09/21,1501150726,148536.9,9/24/2009,,,,,,,,
+Paid(Override),113635,,10/1/2010,1760.81,USD,1760.81,USD,9/21/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/09/22,1501012390,158949.36,9/24/2010,,,,,,,,
+Paid(Override),113635,,10/1/2011,1813.64,USD,1813.64,USD,9/20/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2011/09/22 P 2011/09/22,1500976483,166008.86,9/23/2011,,,,,,,,
+Paid(Override),113635,,10/1/2012,1868.04,USD,1868.04,USD,9/19/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2012/09/20,1501155015,159628.94,9/21/2012,,,,,,,,
+Paid(Override),113635,,11/1/2002,1420.58,USD,1420.58,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,11/1/2003,1463.2,USD,1463.2,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,11/1/2004,1507.09,USD,1507.09,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,11/1/2005,1552.31,USD,1552.31,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,11/1/2006,1598.88,USD,1598.88,USD,10/18/2006,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2006/10/19 P 2006/10/19 P 2006/10/19,1500898670,135557.48,10/23/2006,^417.19^1181.69,^10/18/2006^10/18/2006,^1500898670^1500898670,^135557.48^135557.48,^10/23/2006^10/23/2006,^^,^P 2006/10/19 P 2006/10/19 P 2006/10/19^P 2006/10/19 P 2006/10/19 P 2006/10/19,
+Paid(Override),113635,,11/1/2007,1646.84,USD,1646.84,USD,10/22/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500910827,138224.39,10/24/2007,,,,,,,,
+Paid(Override),113635,,11/1/2008,1696.25,USD,1696.25,USD,10/23/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2008/10/24,1501026491,145441.3,10/27/2008,,,,,,,,
+Paid(Override),113635,,11/1/2009,1747.13,USD,1747.13,USD,10/21/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/10/22,1501264542,149027.97,10/23/2009,,,,,,,,
+Paid(Override),113635,,11/1/2010,1799.55,USD,1799.55,USD,10/20/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,PP 1501109413102610 2010/10/26 159629.98 1799.55 PP 1501109413102610 2010/10/26 159629.98 1799.55 P 2010/10/21,1501109413,159629.98,10/26/2010,,,,,,,,
+Paid(Override),113635,,11/1/2011,1853.54,USD,1853.54,USD,10/17/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2011/10/18,1501092277,165173.31,10/19/2011,^483.64^1369.9,^10/17/2011^10/17/2011,^1501092277^1501092277,^165173.31^165173.31,^10/19/2011^10/19/2011,^^,^P 2011/10/18^P 2011/10/18,
+Paid(Override),113635,,11/9/2001,1019.33,USD,1019.33,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,12/1/2001,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,12/1/2002,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,12/1/2003,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,12/1/2004,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,12/1/2005,1564.46,USD,1564.46,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,12/1/2006,1611.39,USD,1611.39,USD,11/15/2006,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,PP 1500971254111706 2006/11/17 140660.92 1611.39,1500971254,140660.92,11/17/2006,,,,,,,,
+Paid(Override),113635,,12/1/2007,1659.73,USD,1659.73,USD,11/19/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1501000745,138798.31,11/20/2007,,,,,,,,
+Paid(Override),113635,,12/1/2008,1709.52,USD,1709.52,USD,11/21/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1501144497,165675.38,11/24/2008,,,,,,,,
+Paid(Override),113635,,12/1/2009,1760.81,USD,1760.81,USD,11/19/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/11/20,1501402512,171300,11/23/2009,,,,,,,,
+Paid(Override),113635,,12/1/2010,1813.64,USD,1813.64,USD,11/17/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/11/18,1501192728,181548.48,11/19/2010,,,,,,,,
+Paid(Override),113635,,12/1/2011,1868.04,USD,1868.04,USD,11/15/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2011/11/17,1501242494,189421.94,11/21/2011,,,,,,,,
+Paid(Override),113635,,2/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,2/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,2/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,2/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,2/1/2006,1564.46,USD,1564.46,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,2/1/2007,1611.39,USD,1611.39,USD,1/19/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500068742,136739.6,1/23/2007,,,,,,,,
+Paid(Override),113635,,2/1/2008,1659.73,USD,1659.73,USD,1/22/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500052575,139224.85,1/23/2008,,,,,,,,
+Paid(Override),113635,,2/1/2009,1709.52,USD,1709.52,USD,1/20/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/01/21,1500070513,145229.47,1/22/2009,,,,,,,,
+Paid(Override),113635,,2/1/2010,1760.81,USD,1760.81,USD,1/19/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500073017,153479.38,1/21/2010,,,,,,,,
+Paid(Override),113635,,2/1/2011,1813.64,USD,1813.64,USD,1/20/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,PP 1500067252012411 2011/01/24 160896.83 1813.64 P 2011/01/21,1500067252,160896.83,1/24/2011,,,,,,,,
+Paid(Override),113635,,2/1/2012,1868.04,USD,1868.04,USD,1/20/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2012/01/23,1500102179,168014.97,1/24/2012,,,,,,,,
+Paid(Override),113635,,3/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,3/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,3/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,3/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,3/1/2006,1564.46,USD,1564.46,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,3/1/2007,1611.39,USD,1611.39,USD,2/15/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500146621,136959.12,2/20/2007,,,,,,,,
+Paid(Override),113635,,3/1/2008,1659.73,USD,1659.73,USD,2/19/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500151005,139130.59,2/20/2008,,,,,,,,
+Paid(Override),113635,,3/1/2009,1709.52,USD,1709.52,USD,2/18/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/02/19,1500209609,145949.88,2/20/2009,,,,,,,,
+Paid(Override),113635,,3/1/2010,1760.81,USD,1760.81,USD,2/17/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/02/18,1500204480,153767.91,2/19/2010,,,,,,,,
+Paid(Override),113635,,3/1/2011,1813.64,USD,1813.64,USD,2/17/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,PP 1500160333022211 2011/02/22 196308.25 1813.64 P 2011/02/18,1500160333,196308.25,2/22/2011,,,,,,,,
+Paid(Override),113635,,3/1/2012,1868.04,USD,1868.04,USD,2/15/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2012/02/16,1500190783,168324.71,2/17/2012,,,,,,,,
+Paid(Override),113635,,4/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,4/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,4/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,4/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,4/1/2006,1564.46,USD,1564.46,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,4/1/2007,1611.39,USD,1611.39,USD,3/21/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500229439,137248.3,3/23/2007,,,,,,,,
+Paid(Override),113635,,4/1/2008,1659.73,USD,1659.73,USD,3/21/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2008/03/24,1500252976,139247.28,3/25/2008,,,,,,,,
+Paid(Override),113635,,4/1/2009,1709.52,USD,1709.52,USD,3/20/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500336908,144587.18,3/24/2009,,,,,,,,
+Paid(Override),113635,,4/1/2010,1760.81,USD,1760.81,USD,3/19/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/03/22,1500342074,153900.28,3/24/2010,,,,,,,,
+Paid(Override),113635,,4/1/2011,1813.64,USD,1813.64,USD,3/21/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500262489,163601.83,3/23/2011,,,,,,,,
+Paid(Override),113635,,4/1/2012,1868.04,USD,1868.04,USD,3/20/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2012/03/22,1500342637,166206.25,3/23/2012,,,,,,,,
+Paid(Override),113635,,5/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,5/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,5/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,5/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,5/1/2006,1564.46,USD,1564.46,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,5/1/2007,1611.39,USD,1611.39,USD,4/18/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2007/04/20,1500324877,137611.13,4/23/2007,,,,,,,,
+Paid(Override),113635,,5/1/2008,1659.73,USD,1659.73,USD,4/21/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2008/04/22,1500366743,139621.02,4/24/2008,,,,,,,,
+Paid(Override),113635,,5/1/2009,1709.52,USD,1709.52,USD,4/20/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/04/21,1500478954,146884.9,4/22/2009,,,,,,,,
+Paid(Override),113635,,5/1/2010,1760.81,USD,1760.81,USD,4/20/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/04/21,1500458475,156956.9,4/22/2010,,,,,,,,
+Paid(Override),113635,,5/1/2011,1813.64,USD,1813.64,USD,4/20/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2011/04/21 P 2011/04/21,1500420309,164236.63,4/26/2011,,,,,,,,
+Paid(Override),113635,,5/1/2012,1868.04,USD,1868.04,USD,4/19/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2012/04/20,1500454341,166675.02,4/23/2012,,,,,,,,
+Paid(Override),113635,,6/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,6/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,6/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,6/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,6/1/2006,1564.46,USD,1564.46,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,6/1/2007,1611.39,USD,1611.39,USD,5/16/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,PP 1500422725052107 2007/05/21 137961.87 1611.39 P 2007/05/18,1500446880,137961.87,5/23/2007,,,,,,,,
+Paid(Override),113635,,6/1/2008,1659.73,USD,1659.73,USD,5/21/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2008/05/22,1500462515,139994.84,5/23/2008,,,,,,,,
+Paid(Override),113635,,6/1/2009,1709.52,USD,1709.52,USD,5/19/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/05/20,1500600550,153012.12,5/21/2009,,,,,,,,
+Paid(Override),113635,,6/1/2010,1760.81,USD,1760.81,USD,5/19/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/05/20,1500554111,157383.7,5/24/2010,,,,,,,,
+Paid(Override),113635,,6/1/2011,1813.64,USD,1813.64,USD,5/19/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500538454,164700.38,5/25/2011,,,,,,,,
+Paid(Override),113635,,6/1/2012,1868.04,USD,1868.04,USD,5/16/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2012/05/18,1500570355,167133.23,5/21/2012,,,,,,,,
+Paid(Override),113635,,7/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,7/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,7/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,7/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,7/1/2006,1564.46,USD,1564.46,USD,6/19/2006,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2006/06/20,1500527068,133998.5,6/22/2006,,,,,,,,
+Paid(Override),113635,,7/1/2007,1611.39,USD,1611.39,USD,6/21/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500528740,138079.3,6/25/2007,,,,,,,,
+Paid(Override),113635,,7/1/2008,1659.73,USD,1659.73,USD,6/23/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2008/06/24,1500578610,140368.72,6/25/2008,,,,,,,,
+Paid(Override),113635,,7/1/2009,1709.52,USD,1709.52,USD,6/19/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/06/22,1500740763,150236.07,6/23/2009,,,,,,,,
+Paid(Override),113635,,7/1/2010,1760.81,USD,1760.81,USD,6/18/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/06/21,1500646828,157924.66,6/22/2010,,,,,,,,
+Paid(Override),113635,,7/1/2011,1813.64,USD,1813.64,USD,6/21/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2011/06/22,1500638803,164948.94,6/23/2011,,,,,,,,
+Paid(Override),113635,,7/1/2012,1868.04,USD,1868.04,USD,6/20/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2012/06/21 P 2012/06/21,1500696231,165147.97,6/22/2012,,,,,,,,
+Paid(Override),113635,,8/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,8/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,8/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,8/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,8/1/2006,1564.46,USD,1564.46,USD,7/14/2006,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2006/07/18,1500608374,134339.53,7/19/2006,,,,,,,,
+Paid(Override),113635,,8/1/2007,1611.39,USD,1611.39,USD,7/19/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2007/07/20,1500606531,138374.55,7/23/2007,,,,,,,,
+Paid(Override),113635,,8/1/2008,1659.73,USD,1659.73,USD,7/22/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500672661,140639.91,7/24/2008,,,,,,,,
+Paid(Override),113635,,8/1/2009,1709.52,USD,1709.52,USD,7/22/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/07/23,1500874333,147552.91,7/24/2009,,,,,,,,
+Paid(Override),113635,,8/1/2010,1760.81,USD,1760.81,USD,7/21/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2010/07/22,1500780559,158230.34,7/23/2010,,,,,,,,
+Paid(Override),113635,,8/1/2011,1813.64,USD,1813.64,USD,7/20/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2011/07/22,1500766267,165266.52,7/25/2011,,,,,,,,
+Paid(Override),113635,,8/1/2012,1868.04,USD,1868.04,USD,7/19/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500856413,158923.34,7/24/2012,,,,,,,,
+Paid(Override),113635,,9/1/2002,1390,USD,1390,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,9/1/2003,1431.7,USD,1431.7,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,9/1/2004,1474.65,USD,1474.65,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,9/1/2005,1518.89,USD,1518.89,USD,5/12/2016,,,,^100,^66260010,,,^GL Account,^PCT,,"Payment status changed from Open to Paid in transition from REM to Siterra
+
+Closed on 08/19/2006",,,,,,,,,,,
+Paid(Override),113635,,9/1/2006,1564.46,USD,1564.46,USD,8/17/2006,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,PP 1500718056082106 2006/08/21 134747.73 1564.46,1500718056,134747.73,8/21/2006,,,,,,,,
+Paid(Override),113635,,9/1/2007,1611.39,USD,1611.39,USD,8/22/2007,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500707018,138791.63,8/24/2007,,,,,,,,
+Paid(Override),113635,,9/1/2008,1659.73,USD,1659.73,USD,8/22/2008,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2008/08/25,1500790507,141073.69,8/26/2008,,,,,,,,
+Paid(Override),113635,,9/1/2009,1709.52,USD,1709.52,USD,8/20/2009,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/08/21,1501004354,148348.76,8/25/2009,,,,,,,,
+Paid(Override),113635,,9/1/2010,1760.81,USD,1760.81,USD,8/20/2010,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500896832,158713.9,8/23/2010,,,,,,,,
+Paid(Override),113635,,9/1/2011,1813.64,USD,1813.64,USD,8/23/2011,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,,1500880288,165766.32,8/24/2011,,,,,,,,
+Paid(Override),113635,,9/1/2012,1868.04,USD,1868.04,USD,8/16/2012,,,,^100^100,^4000089200-2000047719^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2012/08/21,1501008147,159379.08,8/22/2012,,,,,,,,
+Paid(Override),363168,,6/15/1999,13849.18,USD,13849.18,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2000,14829.28,USD,14829.28,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2001,15317.54,USD,15317.54,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2002,15572.3,USD,15572.3,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2003,16031.28,USD,16031.28,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2004,16311.53,USD,16311.53,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2005,16808.57,USD,16808.57,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2006,17378.19,USD,17378.19,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2007,17851.97,USD,17851.97,USD,5/12/2016,FC3551,12000,,^100,^66260010,,,^GL Account,^PCT,,Payment status changed from Open to Paid in transition from REM to Siterra,,,,,,,,,,,
+Paid(Override),363168,,6/15/2008,18547.01,USD,18547.01,USD,5/21/2008,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,^PCT^PCT,,"P 2008/05/22
+
+[Offset]
+PP 1169852 2008/05/23 11975.67 -12000.00 P 2008/05/22 ",1169852,11975.67,5/23/2008,,,,,,,,
+Paid(Override),363168,,6/15/2009,18574.01,USD,18574.01,USD,5/21/2009,,,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2009/05/26 sd 5/21/09 Had site on hold b/c couldn't locate lease for CPI information. Lease found-due now.,1497265,6574.01,5/29/2009,^712.43^17861.58,^5/21/2009^5/21/2009,^1497265^1497265,^6574.01^6574.01,^5/29/2009^5/29/2009,^^,"^P 2009/05/26 sd 5/21/09 Had site on hold b/c couldn't locate lease for CPI information. Lease found-due now.^P 2009/05/26 sd 5/21/09 Had site on hold b/c couldn't locate lease for CPI information. Lease found-due now.
+
+[Offset]
+PP 1497265 2009/05/29 6574.01 -12000.00 P 2009/05/26 sd 5/21/09 Had site on hold b/c couldn't locate lease for CPI information. Lease found-due now. ",
+Paid(Override),363168,,6/15/2010,18965.18,USD,18965.18,USD,5/19/2010,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,^PCT^PCT,,"P 2010/05/20
+
+[Offset]
+PP 1772580 2010/05/21 12767.18 -12000.00 P 2010/05/20 ",1772580,12767.18,5/21/2010,,,,,,,,
+Paid(Override),363168,,6/15/2011,19557.63,USD,19557.63,USD,5/19/2011,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,^PCT^PCT,,"[Offset]
+PP 2061253 2011/05/23 13569.50 -12000.00 ",2061253,13569.5,5/23/2011,,,,,,,,
+Paid(Override),363168,,6/15/2012,20013.65,USD,20013.65,USD,5/16/2012,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,^PCT^PCT,,"P 2012/05/18
+
+[Offset]
+PP 2337874 2012/05/21 14462.34 -12000.00 P 2012/05/18 ",2337874,14462.34,5/21/2012,,,,,,,,
+Paid(Override),363168,,6/15/2013,20194.66,USD,20194.66,USD,5/21/2013,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,^PCT^PCT,,"PP 2604470 2013/05/23 14857.70 20194.66 P 2013/05/22 P 2013/05/22
+
+[Offset]
+PP 2604470 2013/05/23 14857.70 -12000.00 ",2604470,14857.7,5/23/2013,,,,,,,,
+Paid(Override),363168,,6/15/2014,32474.79,USD,32474.79,USD,5/20/2014,,,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,^PCT^PCT,,P 2014/05/21 P 2014/05/21,2849013,15484.59,5/22/2014,^774.84^19805.16^11894.79,^5/20/2014^5/20/2014^1/22/2015,^2849013^2849013^3044239,^15484.59^15484.59^149419.61,^5/22/2014^5/22/2014^1/29/2015,^^^,"^P 2014/05/21 P 2014/05/21^P 2014/05/21 P 2014/05/21
+
+[Offset]
+PP 2849013 2014/05/22 15484.59 -12000.00 P 2014/05/21 P 2014/05/21 ^LS 1/22/15 679649: 2nd Amd Sec 1(b) RetroActive Increase date changed from 06/01/2015 to 07/01/2014",
+Paid(Override),363168,,6/15/2015,34684.62,USD,34684.62,USD,5/19/2015,FC3551,12000,,^100^100,^4000038224-2000015090^66260010,,,^Payee Account^GL Account,^PCT^PCT,,"P 2015/05/20 PP 3108925 2015/05/21 31676.59 34684.62 P 2015/05/20
+
+[Offset]
+PP 3108925 2015/05/21 31676.59 -12000.00 P 2015/05/20 PP 3108925 2015/05/21 31676.59 -12000.00 P 2015/05/20 ",3108925,31676.59,5/21/2015,,,,,,,,

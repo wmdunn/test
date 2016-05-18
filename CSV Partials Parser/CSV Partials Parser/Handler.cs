@@ -19,8 +19,9 @@ namespace CSV_Partials_Parser
         private List<PayLine> Paylines = new List<PayLine>();
         //private List<int> PartialsIndexCount; 
         private DataTable csvDataTable;
+        private string _filename;
         private string path1 = @"C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\TableToFileTest.csv";
-        private string path2 = @"C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\ListToFileTestTest.csv";
+        private string path2 = @"C:\Users\wdunn\Desktop\testRepository\testRepository\CSV Partials Parser\";
         private string[] columnNames = new string[]
         {
             "\"Status [Canceled, In Design, On Hold, Paid, Paid(Override), Partially Paid, To be Paid, Void]\"",
@@ -30,11 +31,11 @@ namespace CSV_Partials_Parser
             "Planned Amount (Decimal)",
             "Planned Currency", 
             "Actual Amount (Decimal)",
-            "Actual Date (Date)", 
+            "Actual Currency",
+            "Actual Date (Date)",      
             "Offset Number (Text - 30)", 
             "Offset Amount (Decimal)",
             "Offset Date (Date)",
-            "Allocation Share",
             "Allocation Share - Start with and separate by ^ (e.g. '^35^15^50') (Text)",
             "Vendor Number - Start with and separate by ^ (e.g. '^VND1^VND0492^VND9348') (Text)",
             "Vendor Location Number - Start with and separate by ^ (e.g. '^VND1^VND0492^VND9348') (Text)",
@@ -50,7 +51,9 @@ namespace CSV_Partials_Parser
             "Partials Actual Date",
             "Partials Check No",
             "Partials Check Amount",
-            "Partials Check Date"
+            "Partials Check Date",
+            "Partials Check Reference No",
+            "Partials Remarks"
 
         };
 
@@ -58,7 +61,8 @@ namespace CSV_Partials_Parser
 
 
          public void Initialize(string filename)
-        {
+         {
+             _filename = Path.GetFileName(filename);
              LoadTableFromFile(filename);
              csvDataTable = SortDataTable(csvDataTable);
              WriteTabletoFile(csvDataTable);
@@ -82,7 +86,7 @@ namespace CSV_Partials_Parser
             
             sb = buildStringFromPaylines(PayLines, sb);
             
-            File.WriteAllText(path2, sb.ToString());
+            File.WriteAllText(path2+_filename, sb.ToString());
         }
 
         public void WriteTabletoFile(DataTable dt)
@@ -114,10 +118,17 @@ namespace CSV_Partials_Parser
 
         public void PopulatePaylineList(DataTable dt)
         {
-            StringBuilder sb = new StringBuilder(); 
+            //StringBuilder sb = new StringBuilder(); 
+            string[] fields = new string[23];
+            for (int i = 0; i < fields.Length; i++)
+            {
+             
+                    fields[i] = "";
+                
+            }
             foreach (DataRow row in dt.Rows)
             {
-                string[] fields = row.ItemArray.Select(field => field.ToString()).ToArray();
+                fields = row.ItemArray.Select(field => field.ToString()).ToArray();
 
                 PayLine p = new PayLine(fields);
                     Paylines.Add(p);
@@ -130,6 +141,7 @@ namespace CSV_Partials_Parser
         {
             foreach (PayLine payline in Paylines)
             {
+                payline.checkForDelimiter(payline);
                 sb.Append(payline.Status + ",");
                 sb.Append(payline.PayHeaderNumb + ",");
                 sb.Append(payline.StatusDate + ",");
@@ -158,6 +170,8 @@ namespace CSV_Partials_Parser
                 sb.Append(payline.PartialsCheckNo + ",");
                 sb.Append(payline.PartialsCheckAmount + ",");
                 sb.Append(payline.PartialsCheckDate + ",");
+                sb.Append(payline.PartialsCheckReference + ",");
+                sb.Append(payline.PartialsCheckRemarks + ",");
                 sb.AppendLine();
             }
 
@@ -171,14 +185,15 @@ namespace CSV_Partials_Parser
             for (int i = index; i < PayLineList.Count; i++)
             {
                 PartialsIndexCount = FindPartials(PayLineList, index);
-                PayLineList = UpdatePayLineList(PayLineList, PartialsIndexCount, index);
+                if(PartialsIndexCount.Count > 0)
+                    PayLineList = UpdatePayLineList(PayLineList, PartialsIndexCount, index);
                 index++;
             }
 
             return PayLineList;
         }
 
-
+        //For every payments that shares the same header and planned date, the index of that payline will be stored within the list ParitalsIndexCount
         public static List<int> FindPartials(List<PayLine> PayLineList, int index)
         {
 
@@ -194,19 +209,56 @@ namespace CSV_Partials_Parser
             return PartialsIndexCount;
         }
 
+        //Given the indexes of all paylines with the same payheader and planned date, this method will combine them into one payline. It will then remove the partials 
         public static List<PayLine> UpdatePayLineList(List<PayLine> PayLineList, List<int> indexCount, int index)
         {
-            decimal PlannedAmount = Convert.ToInt32(PayLineList[index].PlannedAmount);
-            decimal ActualAmount = Convert.ToInt32(PayLineList[index].ActualAmount);
+            decimal PlannedAmount = 0;
+            //decimal PlannedAmount = Convert.ToDecimal(PayLineList[index].PlannedAmount);
+            decimal ActualAmount = Convert.ToDecimal(PayLineList[index].ActualAmount);
+            string PartialsActualAmount = "^" + PayLineList[index].ActualAmount;
+            string PartialsActualDate = "^" + PayLineList[index].ActualDate;
+            string PartialsCheckNo = "^" + PayLineList[index].CheckNumber;
+            string PartialsCheckAmount = "^" + PayLineList[index].CheckAmount;
+            string PartialsCheckDate = "^" + PayLineList[index].CheckDate;
+            string PartialsReferenceNum = "^" + PayLineList[index].ReferenceNum;
+            string PartialsRemark = "^" + PayLineList[index].Remarks;
             for (int i = 0; i < indexCount.Count; i++)
             {
-                PlannedAmount += Convert.ToDecimal(PayLineList[indexCount[i]].PlannedAmount);
+                PlannedAmount = Convert.ToDecimal(PayLineList[indexCount[i]].PlannedAmount);
                 ActualAmount += Convert.ToDecimal(PayLineList[indexCount[i]].ActualAmount);
-                PayLineList.RemoveAt(indexCount[i]);
+                PartialsActualAmount += "^" + PayLineList[indexCount[i]].ActualAmount;
+                //if (DateTime.Parse(PartialsActualDate) > DateTime.Parse(PayLineList[indexCount[i]].CheckDate))
+                //    PartialsActualDate = PayLineList[indexCount[i]].CheckDate;
+                PartialsActualDate += "^"+ PayLineList[indexCount[i]].ActualDate;
+                PartialsCheckNo += "^" + PayLineList[indexCount[i]].CheckNumber;
+                PartialsCheckAmount += "^" + PayLineList[indexCount[i]].CheckAmount;
+                PartialsCheckDate += "^" + PayLineList[indexCount[i]].CheckDate;
+                PartialsReferenceNum += "^" + PayLineList[indexCount[i]].ReferenceNum;
+                PartialsRemark += "^" + PayLineList[indexCount[i]].Remarks;
+                //PayLineList.RemoveAt(indexCount[i]);
             }
+            for (int i = 0; i < indexCount.Count; i++)
+                PayLineList.RemoveAt(indexCount[i-i]);
 
             PayLineList[index].PlannedAmount = Convert.ToString(PlannedAmount);
             PayLineList[index].ActualAmount = Convert.ToString(ActualAmount);
+            PayLineList[index].PartialsActualAmnt = PartialsActualAmount;
+            PayLineList[index].PartialsActualDate = PartialsActualDate;
+            PayLineList[index].PartialsCheckNo = PartialsCheckNo;
+            PayLineList[index].PartialsCheckAmount = PartialsCheckAmount;
+            PayLineList[index].PartialsCheckDate = PartialsCheckDate;
+            PayLineList[index].PartialsCheckReference = PartialsReferenceNum;
+            PayLineList[index].PartialsCheckRemarks = PartialsRemark;
+            PayLineList[index].Status = "Paid(Override)";
+            //if (Convert.ToDecimal(PayLineList[index].PlannedAmount) <= Convert.ToDecimal(PayLineList[index].ActualAmount))
+            //{
+            //    PayLineList[index].Status = "Paid";
+            //}
+            //else if (Convert.ToDecimal(PayLineList[index].PlannedAmount) > Convert.ToDecimal(PayLineList[index].ActualAmount))
+            //{
+            //    PayLineList[index].Status = "Partially Paid";
+            //}
+            
 
             return PayLineList;
         }

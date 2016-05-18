@@ -35,7 +35,8 @@ namespace CSV_Partials_Parser
         public string PartialsCheckNo { get; set; }
         public string PartialsCheckAmount { get; set; }
         public string PartialsCheckDate { get; set; }
-
+        public string PartialsCheckReference { get; set; }
+        public string PartialsCheckRemarks { get; set; }
 
         public PayLine(string[] fields)
         {
@@ -63,13 +64,17 @@ namespace CSV_Partials_Parser
             CheckNumber = fields[20];
             CheckAmount = fields[21];
             CheckDate = fields[22];
-            PartialsActualAmnt = null;
-            PartialsActualDate = null;
-            PartialsCheckNo = null;
-            PartialsCheckAmount = null;
-            PartialsCheckDate = null;
+            PartialsActualAmnt = "";
+            PartialsActualDate = "";
+            PartialsCheckNo = "";
+            PartialsCheckAmount = "";
+            PartialsCheckDate = "";
+            PartialsCheckReference = "";
+            PartialsCheckRemarks = "";
         }
 
+       
+        //Copy Constructor
         public PayLine(PayLine payLine)
         {
             LineCount = ++LineCount;
@@ -101,6 +106,50 @@ namespace CSV_Partials_Parser
             PartialsCheckNo = payLine.PartialsCheckNo;
             PartialsCheckAmount = payLine.PartialsCheckAmount;
             PartialsCheckDate = payLine.PartialsCheckDate;
+            PartialsCheckReference = payLine.PartialsCheckReference;
+            PartialsCheckRemarks = payLine.PartialsCheckRemarks;
+        }
+
+        public void checkForDelimiter(PayLine payLine)
+        {
+            string delimiter1 = ",";
+            string delimiter2 = "\r\n";
+            if(payLine.Status.Contains(delimiter1))
+                payLine.Status = "\"" + payLine.Status + "\"";
+            if(payLine.PayHeaderNumb.Contains(delimiter1))
+                payLine.PayHeaderNumb = "\"" + payLine.PayHeaderNumb + "\"";
+            //StatusDate = payLine.StatusDate;
+            //PlannedDate = payLine.PlannedAmount;
+            //PlannedAmount = payLine.PlannedAmount;
+            //PlannedCurrency = payLine.PlannedCurrency;
+            //ActualAmount = payLine.ActualAmount;
+            //ActualCurrency = payLine.ActualCurrency;
+            //ActualDate = payLine.ActualDate;
+            //OffsetNumber = payLine.OffsetNumber;
+            //OffsetAmount = payLine.OffsetAmount;
+            //OffsetDate = payLine.OffsetDate;
+            //AllocationShare = payLine.AllocationShare;
+            //VendorNumber = payLine.VendorNumber;
+            //VendorLocation = payLine.VendorLocation;
+            //AllocationDescription = payLine.AllocationDescription;
+            //AllocationType = payLine.AllocationType;
+            //PctOrAmnt = payLine.PctOrAmnt;
+            //ReferenceNum = payLine.ReferenceNum;
+            //Remarks = payLine.Remarks;
+            if (payLine.Remarks.Contains(delimiter1) || payLine.Remarks.Contains(delimiter2))
+                payLine.Remarks = "\"" + payLine.Remarks + "\"";
+            //CheckNumber = payLine.CheckNumber;
+            //CheckAmount = payLine.CheckAmount;
+            //CheckDate = payLine.CheckDate;
+            //PartialsActualAmnt = payLine.PartialsActualAmnt;
+            //PartialsActualDate = payLine.PartialsActualDate;
+            //PartialsCheckNo = payLine.PartialsCheckNo;
+            //PartialsCheckAmount = payLine.PartialsCheckAmount;
+            //PartialsCheckDate = payLine.PartialsCheckDate;
+            //PartialsCheckReference = payLine.PartialsCheckReference;
+            //PartialsCheckRemarks = payLine.PartialsCheckRemarks;
+            if (payLine.PartialsCheckRemarks.Contains(delimiter1) || payLine.PartialsCheckRemarks.Contains(delimiter2))
+                payLine.PartialsCheckRemarks = "\"" + payLine.PartialsCheckRemarks + "\"";
         }
     }
 
