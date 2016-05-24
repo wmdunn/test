@@ -213,6 +213,8 @@ namespace CSV_Partials_Parser
         public static List<PayLine> UpdatePayLineList(List<PayLine> PayLineList, List<int> indexCount, int index)
         {
             decimal PlannedAmount = 0;
+            decimal offsetAmount = 0;
+            string offsetNumber = null;
             //decimal PlannedAmount = Convert.ToDecimal(PayLineList[index].PlannedAmount);
             decimal ActualAmount = Convert.ToDecimal(PayLineList[index].ActualAmount);
             string PartialsActualAmount = "^" + PayLineList[index].ActualAmount;
@@ -224,6 +226,10 @@ namespace CSV_Partials_Parser
             string PartialsRemark = "^" + PayLineList[index].Remarks;
             for (int i = 0; i < indexCount.Count; i++)
             {
+                if (PayLineList[indexCount[i]].OffsetAmount != "")
+                    offsetAmount = Convert.ToDecimal(PayLineList[indexCount[i]].OffsetAmount);
+                if (PayLineList[indexCount[i]].OffsetNumber != "")
+                    offsetNumber = PayLineList[indexCount[i]].OffsetNumber;
                 PlannedAmount = Convert.ToDecimal(PayLineList[indexCount[i]].PlannedAmount);
                 ActualAmount += Convert.ToDecimal(PayLineList[indexCount[i]].ActualAmount);
                 PartialsActualAmount += "^" + PayLineList[indexCount[i]].ActualAmount;
@@ -239,7 +245,10 @@ namespace CSV_Partials_Parser
             }
             for (int i = 0; i < indexCount.Count; i++)
                 PayLineList.RemoveAt(indexCount[i-i]);
-
+            if (offsetAmount != 0)
+                PayLineList[index].OffsetAmount = Convert.ToString(offsetAmount);
+            if (offsetNumber != null)
+                PayLineList[index].OffsetNumber = Convert.ToString(offsetNumber);
             PayLineList[index].PlannedAmount = Convert.ToString(PlannedAmount);
             PayLineList[index].ActualAmount = Convert.ToString(ActualAmount);
             PayLineList[index].PartialsActualAmnt = PartialsActualAmount;
