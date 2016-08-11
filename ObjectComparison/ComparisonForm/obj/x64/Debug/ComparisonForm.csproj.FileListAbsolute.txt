@@ -1,0 +1,47 @@
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\x64\Debug\ComparisonForm.exe.config
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\x64\Debug\ComparisonForm.exe
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\x64\Debug\ComparisonForm.pdb
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\x64\Debug\EPPlus.dll
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\x64\Debug\GenericParsing.dll
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\x64\Debug\EPPlus.xml
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\ComparisonForm.csprojResolveAssemblyReference.cache
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\MainWindow.baml
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\MainWindow.g.cs
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\App.g.cs
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\ComparisonForm_MarkupCompile.cache
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\ComparisonForm.g.resources
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\ComparisonForm.Properties.Resources.resources
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\ComparisonForm.csproj.GenerateResource.Cache
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\ComparisonForm.exe
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\x64\Debug\ComparisonForm.pdb
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\bin\x64\Debug\ComparisonForm.exe.config
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.exe
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.pdb
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\bin\x64\Debug\ComparisonForm.exe
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\bin\x64\Debug\ComparisonForm.pdb
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\bin\x64\Debug\EPPlus.dll
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\bin\x64\Debug\GenericParsing.dll
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\bin\x64\Debug\EPPlus.xml
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.csprojResolveAssemblyReference.cache
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonWindow.baml
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonWindow.g.cs
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\App.g.cs
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm_MarkupCompile.cache
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.g.resources
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.Properties.Resources.resources
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.csproj.GenerateResource.Cache
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\bin\x64\Debug\ComparisonForm.exe.config
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.exe
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.pdb
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\bin\x64\Debug\ComparisonForm.exe
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\bin\x64\Debug\ComparisonForm.pdb
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\bin\x64\Debug\EPPlus.dll
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\bin\x64\Debug\EPPlus.xml
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonWindow.baml
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonWindow.g.cs
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\App.g.cs
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm_MarkupCompile.cache
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.g.resources
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.Properties.Resources.resources
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.csproj.GenerateResource.Cache
+C:\Git\SiterraES\Internal Tools\ObjectComparison\ComparisonForm\obj\x64\Debug\ComparisonForm.csprojResolveAssemblyReference.cache

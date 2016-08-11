@@ -1,0 +1,10 @@
+<configuration>
+	<object>CriticalDate</object>
+	<primaryKeys>
+		<key>Number</key>
+	</primaryKeys>
+	<defaults>
+		<column name="Purchase Price Currency">US Dollar</column>
+		<column name="Sale Currency">US Dollar</column>
+	</defaults>
+</configuration>

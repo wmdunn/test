@@ -1,0 +1,18 @@
+<configuration>
+	<object>Lease</object>
+	<primaryKeys>
+		<key>Number</key>
+	</primaryKeys>
+	<defaults>
+		<column name="TOTAL_AREA">0</column>
+		<column name="USABLE_AREA">0</column>
+		<column name="STATUS">Active</column>
+		<column name="TYPE">Regular</column>
+		<column name="HOLDING_INTEREST">Lessee</column>
+		<column name="STRUCTURE">- Not Selected -</column>
+		<column name="USAGE_TYPE">- Not Selected -</column>
+		<column name="GROSS_AREA">0</column>
+		<column name="MEASUREMENT_UNIT">Square Foot</column>
+		<column name="CURRENCY_SYMBOL">US Dollar</column>
+	</defaults>
+</configuration>

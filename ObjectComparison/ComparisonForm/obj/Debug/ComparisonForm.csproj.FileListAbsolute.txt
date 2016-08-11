@@ -1,0 +1,16 @@
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\Debug\ComparisonForm.exe.config
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\Debug\ComparisonForm.exe
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\Debug\ComparisonForm.pdb
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\Debug\EPPlus.dll
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\Debug\GenericParsing.dll
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\bin\Debug\EPPlus.xml
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\ComparisonForm.csprojResolveAssemblyReference.cache
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\MainWindow.g.cs
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\App.g.cs
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\ComparisonForm_MarkupCompile.cache
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\MainWindow.baml
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\ComparisonForm.g.resources
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\ComparisonForm.Properties.Resources.resources
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\ComparisonForm.csproj.GenerateResource.Cache
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\ComparisonForm.exe
+C:\Users\dgoldman\Documents\Visual Studio 2015\Projects\GoddamGenericParser\ComparisonForm\obj\Debug\ComparisonForm.pdb
